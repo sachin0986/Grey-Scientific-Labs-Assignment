@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import { AuthProvider, useAuth } from './context/AuthContext';
+import { AuthProvider, useAuth } from "./Context/AuthContext";
 import { CartProvider } from './context/CartContext';
 import Header from "./Components/Header"
 import ProductList from './Components/ProductList';
 import ProductDetail from './Components/ProductDetails';
 import Cart from './Components/Cart';
-import Login from './Components/Login';
+import Login from "./Components/Login";
 
 const ProtectedRoute = ({ children }) => {
   const { isAuthenticated } = useAuth();

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import { useAuth } from '../context/AuthContext';
-import { useCart } from '../context/CartContext';
+import { useAuth } from "../Context/AuthContext"
+import { useCart } from "../Context/CartContext"
 
 const Header = () => {
   const { isAuthenticated, logout, user } = useAuth();

@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from "./Context/AuthContext";
-import { CartProvider } from './context/CartContext';
+import { CartProvider } from './Context/CartContext';
 import Header from "./Components/Header";
 import ProductList from './Components/ProductList';
 import ProductDetail from './Components/ProductDetails';
